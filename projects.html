@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Jessica Classon</title>
+        <link rel="icon" href="./images/jc.png" type="image/x-con"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <link id='navbar' type="text/css" src='projects.html'/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Montserrat:ital,wght@1,300&family=Quicksand:wght@300&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Noto+Sans:ital,wght@1,500&family=Quicksand:wght@300&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Caveat:wght@500&family=Indie+Flower&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar"></div>
+        <script>
+            $.get("nav.html", function(data){
+                $(".navbar").replaceWith(data);
+            });
+        </script> 
+    </body>
+</html>

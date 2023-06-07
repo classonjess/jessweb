@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Jessica Classon</title>
+        <link rel="icon" href="./images/jc.png" type="image/x-con"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <link id='navbar' type="text/css" src='projects.html'/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Montserrat:ital,wght@1,300&family=Quicksand:wght@300&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Noto+Sans:ital,wght@1,500&family=Quicksand:wght@300&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Caveat:wght@500&family=Indie+Flower&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Caveat:wght@500&family=Courgette&family=Indie+Flower&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Caveat:wght@500&family=Indie+Flower&family=Titan+One&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+    </head>
+  
+    <body>
+       <!-- Navbar --> 
+      <div class="navbar"></div>
+      <script>
+          $.get("nav.html", function(data){
+              $(".navbar").replaceWith(data);
+          });
+      </script> 
+   
+
+      <header>WHO AM I:</header>
+
+        
+      <p id="one"> Welcome to my Portfolio Website! <br><br>My name is Jessica and I was born and raised in Cape Town, South Africa.
+          In 2016 I decided to venture out to America to become an Au Pair and see the world! 
+            
+          <br><br>Since being in the USA I obtained an EA position for an IT recruiting company. This opened my eyes to the world of coding
+          and thus my desire to become a Software Developer was born. <br><br> This drove me to obtain my certificate by participating in a bootcamp through MIT xPRO for FullStack 
+           Development with MERN.<br> <br>To increase my skills I am currently taking classes through Codecademy.</p>
+
+     
+      <img id="tess" src="./images/crop1.png">
+   
+        <!-- JS --> 
+      <div id="alles">
+        <p>Stay daring and have a <span id="words"></span><span id="hap"></span></p>
+      </div>
+         
+        <script type="text/javascript" >
+          (function() {
+          var words = [
+           'fantastic ',
+           'remarkable ',
+           'memorable ',
+           'life changing ',
+           'purposeful '
+          ],
+          i = 0;
+          setInterval(function(){
+           $('#words').fadeOut(function(){
+             $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+           });
+          }, 1000);
+         })();
+       </script>
+        
+
+         <!-- Java for day to auto update --> 
+        <script>
+         const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+         const d = new Date();
+         let day = weekday[d.getDay()];
+         document.getElementById("hap").innerHTML =  day + '!';
+        </script>
+
+      
+        <h2 id="projects"> Projects:</h2>
+          <ul>
+            <li class="m1" style=list-style-image:url("./images/mhqc.png")>
+              <a href="http://mhqc.s3-website-us-east-1.amazonaws.com/">MHQC</a></li>
+            <li class="a1" style=list-style-image:url("./images/transp.png")>
+              <a href="http://affirmationsforyou.s3-website-us-east-1.amazonaws.com/">Affirmations</a>
+            </li>
+          </ul>
+
+        
+        <h3>Skills:</h3>
+         <div id="images">
+          <img src="./images/js.png"/>
+          <img src="./images/node.png"/>
+          <img src="./images/reactn.png"/>
+          <img src="./images/htmln.png"/>
+          <img src="./images/css.png"/>
+          <img src="./images/docker.png"/>
+        </div>
+
+       <footer id="footer">
+        <a target="_blank" href="https://www.linkedin.com/in/jessica-classon-172944249/" > <img id="link" src="./images/317750_linkedin_icon.png"></a>
+        <span class="copyright">© All Rights Reserved by My Footer.</span>
+        <a target="_blank" href="https://github.com/classonjess" ><img id="git" src="./images/git.png"></a> 
+       </footer>
+
+    </body>
+</html>
