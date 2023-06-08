@@ -641,10 +641,10 @@ footer{
   
   #tess{
     width: 260px;
-    height: 340px;
+    height: 300px;
     border-radius: 30%;
     margin-top: 60px;
-    margin-left: 80px;
+    margin-left: 90px;
   }
   
   #alles{
@@ -763,11 +763,11 @@ background-size: 50%;
 }
 
 #tess{
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 350px;
   border-radius: 30%;
   margin-top: 100px;
- 
+ margin-right: 130px;
 }
 
 #alles{
