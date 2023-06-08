@@ -711,13 +711,13 @@ footer{
 /* Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-device-width: 1440px) {
   .navbar{
-    height: 60px;
+    height: 65px;
     width: 100%;
 }
 
 #img-fluid{
   margin-left: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 input[type=checkbox] {
@@ -734,7 +734,10 @@ input[type=checkbox] {
 ul.navbar-links{
  margin-left: 0px;
  margin-bottom: 0px;
+}
 
+a.nav-link{
+  font-size: 25px;
 }
 
 header{
@@ -751,22 +754,22 @@ background-size: 60%;
 #one{
  margin-top: 50px;
  margin-left: 30px;
- padding-right: 790px;
- font-size: 20px;
+ padding-right: 800px;
+ font-size: 23px;
 }
 
 #tess{
   width: 400px;
-  height: 400px;
+  height: 500px;
   border-radius: 30%;
   margin-top: 100px;
  
 }
 
 #alles{
-  margin-top: 520px;
+  margin-top: 700px;
   margin-left: 30px;
-  font-size: 30px;
+  font-size: 31px;
   padding-right: 1100px;
 }
 
@@ -807,7 +810,7 @@ footer{
 #link{
   height: 30px;
   margin-bottom: 20px;
-  margin-left:480px;
+  margin-left: 500px;
 }
 
 #git{
@@ -821,7 +824,7 @@ footer{
   font-family: Montserrat, sans-serif;
   font-size: 18px;
   width:100%;
-  margin-left: 70px;
+  margin-left: 60px;
   padding-top: 40px;
  }
 }
