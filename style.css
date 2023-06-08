@@ -533,7 +533,7 @@ background-size: 70%;
  height: 270px;
  border-radius: 30%;
  margin-top: 25px;
- margin-left: 110px;
+ margin-left: 80px;
 }
 
 #alles{
@@ -557,7 +557,7 @@ h2#projects{
 
 ul{
  padding-top: 6px;
- margin-left: 170px;
+ margin-left: 160px;
  line-height: 50px;
  font-size: 15px;
 }
@@ -575,8 +575,8 @@ img{
 }
 
 #images{
-  margin-left: 50px;
-  grid-gap: 20px;
+  margin-left: 40px;
+  grid-gap: 17px;
   padding-bottom: 60px;
   
 }
@@ -588,19 +588,19 @@ footer{
 #link{
   height: 20px;
   margin-bottom:20px;
-  margin-left: 90px;
+  margin-left: 100px;
 }
 
 #git{
   height: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .copyright{
 font-size: 10px;
 width:100%;
-margin-left: 20px;
+margin-left: 10px;
  }
 }
 
