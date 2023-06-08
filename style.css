@@ -586,13 +586,134 @@ footer{
 
 }
 
-/* Laptop */
-@media only screen and (min-width: 769px) and (max-device-width: 1024px) {
+/* Laptop small */
+@media only screen and  (min-width: 769px) and (max-width: 1024px){
+   
+  .navbar{
+      height: 50px;
+      width: 100%;
+  }
+  
+  
+  #img-fluid{
+    margin-left: 30px;
+   padding-bottom: 50px;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  ul.navbar-links{
+   margin-left: 0px;
+   margin-bottom: 0px;
+  
+  }
+  
+  header{
+    display: none;
+  /*font-size: 45px;
+  margin-top: 10px;
+  text-align: center;*/
+  }
+  body{
+  background-position: bottom top;
+  background-size: 60%;
+  }
+  
+  #one{
+   margin-top: 50px;
+   margin-left: 20px;
+   padding-right: 450px;
+   font-size: 12px;
+  }
+  
+  #tess{
+    width: 260px;
+    height: 300px;
+    border-radius: 30%;
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+  
+  #alles{
+    margin-top: 380px;
+    margin-left: 14px;
+    font-size: 30px;
+    padding-right: 500px;
+  }
+  
+  
+  h2{
+   padding-top: 40px;
+  }
+  
+  h2#projects{
+   margin-left:30px;
+  }
+  
+  ul{
+   margin-left: 50px;
+  }
+  
+  h3{
+  font-size: 100px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin-left: 30px;
+  
+  }
+  img{
+    height: 40px;
+  }
+  
+  #images{
+    margin-left: 40px;
+    grid-gap: 25px;
+    padding-bottom: 60px;
+    
+  }
+  footer{
+    height:100%;
+  }
+  
+  #link{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  #git{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
+  
+  .copyright{
+    color:whitesmoke;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    width:100%;
+    margin-left: 50px;
+    padding-top: 40px;
+   }
+  
+  }
+
+/* Laptop Large*/
+@media only screen and (min-width: 1025px) and (max-device-width: 1440px) {
   .navbar{
     height: 60px;
     width: 100%;
 }
-
 
 #img-fluid{
   margin-left: 30px;
@@ -629,24 +750,24 @@ background-size: 60%;
 
 #one{
  margin-top: 50px;
- margin-left: 20px;
- padding-right: 560px;
- font-size: 16px;
+ margin-left: 30px;
+ padding-right: 790px;
+ font-size: 20px;
 }
 
 #tess{
-  width: 300px;
+  width: 400px;
   height: 400px;
   border-radius: 30%;
-  margin-top: 30px;
-  margin-left: 80px;
+  margin-top: 100px;
+ 
 }
 
 #alles{
-  margin-top: 450px;
-  margin-left: 14px;
+  margin-top: 520px;
+  margin-left: 30px;
   font-size: 30px;
-  padding-right: 650px;
+  padding-right: 1100px;
 }
 
 h2{
@@ -658,7 +779,7 @@ h2#projects{
 }
 
 ul{
- margin-left: 50px;
+ margin-left: 60px;
 }
 
 h3{
@@ -674,7 +795,7 @@ img{
 }
 
 #images{
-  margin-left: 40px;
+  margin-left: 60px;
   grid-gap: 25px;
   padding-bottom: 60px;
   
@@ -686,7 +807,7 @@ footer{
 #link{
   height: 30px;
   margin-bottom: 20px;
-  margin-left: 280px;
+  margin-left:480px;
 }
 
 #git{
@@ -700,7 +821,7 @@ footer{
   font-family: Montserrat, sans-serif;
   font-size: 18px;
   width:100%;
-  margin-left: 50px;
+  margin-left: 70px;
   padding-top: 40px;
  }
 }
