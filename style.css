@@ -385,7 +385,7 @@ input[type=checkbox]:checked ~ .menu {
 header{
  font-size: 14px;
  text-align: center;
- margin-top: 319px;
+ margin-top: 321px;
  margin-left: 0;
  right: 0;
  left: 0;
@@ -399,9 +399,9 @@ background-size: 62%;
 }
 
 #one{
- margin-top: 347px;
- margin-left: 36px;
- margin-right: 36px;
+ margin-top: 349px;
+ margin-left: 38px;
+ margin-right: 38px;
  font-size: 11px;
  padding-right: 0px;
  text-align: center; 
@@ -421,7 +421,7 @@ background-size: 62%;
 }
 
 #alles{
-  margin-top: 485px;
+  margin-top: 495px;
   margin-left: 10px;
   font-size: 30px;
   padding-right: 15px;
@@ -441,7 +441,7 @@ h2#projects{
 
 ul{
  padding-top: 15px;
- margin-left: 160px;
+ margin-left: 163px;
  line-height: 50px;
  font-size: 15px;
 }
