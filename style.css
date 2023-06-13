@@ -385,7 +385,7 @@ input[type=checkbox]:checked ~ .menu {
 header{
  font-size: 14px;
  text-align: center;
- margin-top: 321px;
+ margin-top: 328px;
  margin-left: 0;
  right: 0;
  left: 0;
@@ -394,12 +394,12 @@ header{
 }
 
 body{
-background-position: bottom top;
-background-size: 62%;
+ background-position: bottom top;
+ background-size: 62%;
 }
 
 #one{
- margin-top: 349px;
+ margin-top: 355px;
  margin-left: 38px;
  margin-right: 38px;
  font-size: 11px;
@@ -412,16 +412,16 @@ background-size: 62%;
 }
 
 #tess{
- width: 255px;
+ width: 260px;
  float: none;
- height: 255px;
+ height: 257px;
  border-radius: 30%;
  margin-top: 25px;
- margin-left: 70px;
+ margin-left: 60px;
 }
 
 #alles{
-  margin-top: 495px;
+  margin-top: 497px;
   margin-left: 10px;
   font-size: 30px;
   padding-right: 15px;
@@ -819,7 +819,7 @@ footer{
   }
   
   #alles{
-    margin-top: 460px;
+    margin-top: 450px;
     margin-left: 24px;
     font-size: 30px;
     padding-right: 700px;
