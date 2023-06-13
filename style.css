@@ -248,7 +248,7 @@ footer{
   }
   body{
     background-position: bottom top;
-    background-size: 80%;
+    background-size: 70%;
   }
 
   #one{
@@ -262,12 +262,12 @@ footer{
   }
 
   #tess{
-    width: 230px;
+    width: 250px;
     float: none;
     height: 250px;
     border-radius: 30%;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 
   #alles{
@@ -390,7 +390,7 @@ header{
 
 body{
 background-position: bottom top;
-background-size: 70%;
+background-size: 65%;
 }
 
 #one{
@@ -533,8 +533,8 @@ header{
 }
 
 body{
-background-position: bottom top;
-background-size: 70%;
+ background-position: bottom top;
+ background-size: 61%;
 }
 
 #one{
@@ -548,7 +548,7 @@ background-size: 70%;
 }
 
 #tess{
- width: 230px;
+ width: 270px;
  float: none;
  height: 270px;
  border-radius: 30%;
