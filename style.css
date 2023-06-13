@@ -394,8 +394,8 @@ background-size: 70%;
 
 #one{
  margin-top: 340px;
- margin-left: 29px;
- margin-right: 29px;
+ margin-left: 27px;
+ margin-right: 27px;
  font-size: 12px;
  padding-right: 0px;
  text-align: center; 
@@ -403,9 +403,9 @@ background-size: 70%;
 }
 
 #tess{
- width: 230px;
+ width: 255px;
  float: none;
- height: 250px;
+ height: 255px;
  border-radius: 30%;
  margin-top: 25px;
  margin-left: 80px;
@@ -449,7 +449,7 @@ img{
 }
 
 #images{
-  margin-left: 17px;
+  margin-left: 19px;
   grid-gap: 20px;
   padding-bottom: 60px;
   
@@ -462,7 +462,7 @@ footer{
 #link{
   height: 20px;
   margin-bottom:20px;
-  margin-left: 80px;
+  margin-left: 85px;
 }
 
 #git{
