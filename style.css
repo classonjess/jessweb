@@ -419,7 +419,7 @@ body{
 }
 
 #contact{
-  margin-top: 460px;
+  margin-top: 480px;
 }
 
 img#link{
@@ -451,7 +451,7 @@ h2#projects{
 
 ul{
  padding-top: 15px;
- margin-left: 163px;
+ margin-left: 169px;
  line-height: 50px;
  font-size: 15px;
 }
@@ -471,7 +471,7 @@ img{
 #images{
   margin-left: 25px;
   grid-gap: 19px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   
 }
 footer{
