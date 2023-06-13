@@ -79,11 +79,12 @@ a.nav-link{
 ul.navbar-links{
     padding-top: 0;
 }
+
 header{
     display: inline-block;
     position: absolute;
     font-size: 30px;
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates", "Indie Flower", sans-serif;
     font-weight: bolder;
     color: black;
     margin-top: 70px;
@@ -335,6 +336,7 @@ margin-left: 5px;
  } 
 }
 
+/* My phone */
 @media only screen and  (min-width: 375px) and (max-width: 424px){
   .navbar{
     height: 50px;
@@ -460,23 +462,23 @@ footer{
 #link{
   height: 20px;
   margin-bottom:20px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 #git{
   height: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .copyright{
 font-size: 10px;
 width:100%;
-margin-left: 20px;
+margin-left: 10px;
  }
 }
 
-/* My phone */
+
 @media only screen and (min-width: 425px) and (max-width: 766px){
   .navbar{
     height: 50px;
