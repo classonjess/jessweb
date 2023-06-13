@@ -259,6 +259,8 @@ footer{
     padding-right: 0px;
     text-align: center;
     line-height: 16px;
+    font-family: Alegreya;
+    font-style: italic;
   }
 
   #tess{
@@ -401,6 +403,8 @@ background-size: 65%;
  padding-right: 0px;
  text-align: center; 
  line-height: 18px;
+ font-family: Alegreya;
+ font-style: italic;
 }
 
 #tess{
