@@ -245,6 +245,7 @@ footer{
     right: 0;
     left: 0;
     width: 100%;
+    font-weight: 500;
   }
   body{
     background-position: bottom top;
@@ -274,7 +275,7 @@ footer{
   }
 
   #alles{
-    margin-top: 410px;
+    margin-top: 420px;
     margin-left: 10px;
     font-size: 30px;
     padding-right: 5px;
@@ -389,6 +390,7 @@ header{
  right: 0;
  left: 0;
  width: 100%;
+ font-weight: 500;
 }
 
 body{
@@ -398,14 +400,15 @@ background-size: 62%;
 
 #one{
  margin-top: 342px;
- margin-left: 28px;
- margin-right: 28px;
+ margin-left: 35px;
+ margin-right: 35px;
  font-size: 12px;
  padding-right: 0px;
  text-align: center; 
  line-height: 18px;
  font-family: "Montserrat Alternates", "Indie Flower", sans-serif;
  font-weight: 0px;
+ font-style: italic;
 }
 
 #tess{
@@ -418,7 +421,7 @@ background-size: 62%;
 }
 
 #alles{
-  margin-top: 480px;
+  margin-top: 510px;
   margin-left: 10px;
   font-size: 30px;
   padding-right: 15px;
@@ -535,6 +538,7 @@ header{
   right: 0;
   left: 0;
   width: 100%;
+  font-weight: 500;
 }
 
 body{
@@ -552,7 +556,7 @@ body{
  line-height: 20px;
  font-family: "Montserrat Alternates", "Indie Flower", sans-serif;
  font-style: italic;
- font-weight: 100;
+ font-weight: 0;
 }
 
 #tess{
@@ -565,7 +569,7 @@ body{
 }
 
 #alles{
-  margin-top: 550px;
+  margin-top: 570px;
   margin-left: 10px;
   font-size: 30px;
   padding-right: 30px;
