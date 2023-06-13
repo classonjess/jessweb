@@ -245,7 +245,7 @@ footer{
     right: 0;
     left: 0;
     width: 100%;
-    font-weight: 500;
+    font-weight: bolder;
   }
   body{
     background-position: bottom top;
@@ -254,9 +254,9 @@ footer{
 
   #one{
     margin-top: 330px;
-    margin-left:18px;
-    margin-right:18px;
-    font-size: 9px;
+    margin-left:25px;
+    margin-right:25px;
+    font-size: 8.5px;
     padding-right: 0px;
     text-align: center;
     line-height: 16px;
@@ -275,7 +275,7 @@ footer{
   }
 
   #alles{
-    margin-top: 420px;
+    margin-top: 400px;
     margin-left: 10px;
     font-size: 30px;
     padding-right: 5px;
@@ -390,7 +390,7 @@ header{
  right: 0;
  left: 0;
  width: 100%;
- font-weight: 500;
+ font-weight: bolder;
 }
 
 body{
@@ -402,7 +402,7 @@ background-size: 62%;
  margin-top: 342px;
  margin-left: 35px;
  margin-right: 35px;
- font-size: 12px;
+ font-size: 11px;
  padding-right: 0px;
  text-align: center; 
  line-height: 18px;
@@ -538,7 +538,7 @@ header{
   right: 0;
   left: 0;
   width: 100%;
-  font-weight: 500;
+  font-weight: bolder;
 }
 
 body{
@@ -550,7 +550,7 @@ body{
  margin-top: 360px;
  margin-left:40px;
  margin-right: 30px;
- font-size: 14px;
+ font-size: 13px;
  padding-right: 0px;
  text-align: center; 
  line-height: 20px;
@@ -569,11 +569,11 @@ body{
 }
 
 #alles{
-  margin-top: 570px;
+  margin-top: 550px;
   margin-left: 10px;
   font-size: 30px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 35px;
+  padding-left: 35px;
   text-align: center;
 }
 
@@ -589,7 +589,7 @@ h2#projects{
 
 ul{
  padding-top: 6px;
- margin-left: 170px;
+ margin-left: 180px;
  line-height: 50px;
  font-size: 15px;
 }
