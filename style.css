@@ -382,7 +382,7 @@ input[type=checkbox]:checked ~ .menu {
 }
 
 header{
- font-size: 13px;
+ font-size: 14px;
  text-align: center;
  margin-top: 315px;
  margin-left: 0;
@@ -400,13 +400,12 @@ background-size: 62%;
  margin-top: 342px;
  margin-left: 28px;
  margin-right: 28px;
- font-size: 14px;
+ font-size: 13px;
  padding-right: 0px;
  text-align: center; 
  line-height: 18px;
- font-family: Alegreya;
- font-style: italic;
- font-weight: 100;
+ font-family:  "Montserrat Alternates" , Alegreya;
+ font-weight: 0px;
 }
 
 #tess{
