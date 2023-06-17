@@ -35,13 +35,22 @@
     </head>
   
     <body>
+
        <!-- Navbar --> 
       <div class="navbar"></div>
       <script>
           $.get("nav.html", function(data){
               $(".navbar").replaceWith(data);
-          });
+         });
       </script> 
+
+       <!--Close  Navbar --> 
+      <script>
+            function closeNavbar() {
+            var checkbox = document.getElementById('checkbox_toggle');
+            checkbox.checked = false;
+           }
+      </script>
 
       <header>WELCOME TO MY PORTFOLIO WEBSITE!</header>
 
@@ -117,5 +126,11 @@
         <p class="copyright">© All Rights Reserved by My Footer</p>
        </footer>
 
+       <script>
+       
+
+      </script>
+ 
+ 
     </body>
 </html>
