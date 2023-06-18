@@ -252,7 +252,7 @@ p.copyright{
     margin-top: 330px;
     margin-left:25px;
     margin-right:25px;
-    font-size: 8.5px;
+    font-size: 9px;
     padding-right: 0px;
     text-align: center;
     line-height: 16px;
@@ -271,7 +271,7 @@ p.copyright{
   }
 
   #contact{
-    margin-top: 380px;
+    margin-top: 410px;
   }
   
   img#link{
@@ -283,7 +283,7 @@ p.copyright{
   }
 
   #alles{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 10px;
     font-size: 30px;
     padding-right: 5px;
@@ -340,7 +340,7 @@ text-align: center;
 
 /* My phone */
 @media only screen and  (min-width: 375px) and (max-width: 424px){
-  .navbar{
+.navbar{
     height: 50px;
     width: 100%;
 }
@@ -397,9 +397,9 @@ body{
 }
 
 #one{
- margin-top: 355px;
- margin-left: 38px;
- margin-right: 38px;
+ margin-top: 358px;
+ margin-left: 45px;
+ margin-right: 45px;
  font-size: 11px;
  padding-right: 0px;
  text-align: center; 
@@ -412,7 +412,7 @@ body{
 #tess{
  width: 260px;
  float: none;
- height: 257px;
+ height: 260px;
  border-radius: 30%;
  margin-top: 25px;
  margin-left: 60px;
