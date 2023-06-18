@@ -398,10 +398,10 @@ body{
 }
 
 #one{
- margin-top: 358px;
- margin-left: 45px;
- margin-right: 45px;
- font-size: 11px;
+ margin-top: 359px;
+ margin-left: 38px;
+ margin-right: 38px;
+ font-size: 13px;
  padding-right: 0px;
  text-align: center; 
  line-height: 18px;
@@ -413,7 +413,7 @@ body{
 #tess{
  width: 260px;
  float: none;
- height: 260px;
+ height: 262px;
  border-radius: 30%;
  margin-top: 25px;
  margin-left: 60px;
