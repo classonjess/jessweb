@@ -243,6 +243,7 @@ p.copyright{
     width: 100%;
     font-weight: bolder;
   }
+
   body{
     background-position: bottom top;
     background-size: 70%;
@@ -252,7 +253,7 @@ p.copyright{
     margin-top: 330px;
     margin-left:42px;
     margin-right:42px;
-    font-size: 9.5px;
+    font-size: 10px;
     padding-right: 0px;
     text-align: center;
     line-height: 16px;
@@ -271,7 +272,7 @@ p.copyright{
   }
 
   #contact{
-    margin-top: 410px;
+    margin-top: 440px;
   }
   
   img#link{
