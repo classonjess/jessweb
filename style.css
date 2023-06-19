@@ -932,8 +932,7 @@ text-align: center;
  }
 }
 
-@media only screen and (max-width: 734px) and (orientation: landscape){
-
+@media only screen and (max-width: 736px) and (orientation: landscape){
   body{
     background-size: 45% !important;
   }
