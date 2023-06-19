@@ -192,7 +192,7 @@ p.copyright{
   
 }
 
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 309px){
   .navbar{
     height: 50px;
     width: 100%;
@@ -484,6 +484,154 @@ text-align: center;
 
 }
 
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+  .navbar{
+    height: 50px;
+    width: 100%;
+}
+
+#img-fluid{
+  margin-left: 20px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+}
+
+.menu {
+  display:none;
+  position: absolute;
+  right: 0;
+}
+
+.menu li:hover {
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li  {
+ margin-top: 0px;
+}
+
+input[type=checkbox]:checked ~ .menu {
+  display: block;
+  background-image: url("./images/dark.jpeg");
+  z-index:1;
+}
+
+.hamburger {
+  display: block;
+  color: whitesmoke;
+  margin-right: 10px;
+  background-image: url("./images/dark.jpeg");
+  z-index: 1;
+}
+
+header{
+ font-size: 14px;
+ text-align: center;
+ margin-top: 328px;
+ margin-left: 0;
+ right: 0;
+ left: 0;
+ width: 100%;
+ font-weight: bolder;
+}
+
+body{
+ background-position: bottom top;
+ background-size: 62%;
+}
+
+#one{
+ margin-top: 361px;
+ margin-left: 36px;
+ margin-right: 36px;
+ font-size: 12px;
+ padding-right: 0px;
+ text-align: center; 
+ line-height: 18px;
+ font-family: "Montserrat Alternates", "Indie Flower", sans-serif;
+ font-weight: 0px;
+ font-style: italic;
+ line-height: 20px;
+}
+
+#tess{
+ width: 267px;
+ float: none;
+ height: 267px;
+ border-radius: 30%;
+ margin-top: 25px;
+ margin-left: 60px;
+}
+
+#contact{
+  margin-top: 580px;
+}
+
+img#link{
+  margin-left: 150px;
+}
+
+img#git{
+  margin-left: 5px;
+}
+
+#alles{
+  margin-top: 35px;
+  margin-left: 10px;
+  font-size: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+h2{
+ font-size: 100px;
+ padding-top: 30px;
+ text-align: center;
+}
+
+h2#projects{
+ margin-left:0px;
+}
+
+ul{
+ padding-top: 15px;
+ margin-left: 169px;
+ line-height: 50px;
+ font-size: 15px;
+}
+
+h3{
+font-size: 100px;
+padding-top: 30px;
+padding-bottom: 13px;
+text-align: center;
+margin-left: 0px;
+
+}
+img{
+  height: 40px;
+}
+
+#images{
+  margin-left: 25px;
+  grid-gap: 19px;
+  padding-bottom: 50px;
+  
+}
+footer{
+  height: 50px;
+}
+
+p.copyright{
+ color:whitesmoke;
+ font-family: Montserrat, sans-serif;
+ font-size: 13px;
+ padding-top: 16px;
+text-align: center; 
+ }
+ }
 
 /* My phone */
 @media only screen and  (min-width: 375px) and (max-width: 424px){
