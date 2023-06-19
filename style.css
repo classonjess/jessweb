@@ -192,7 +192,7 @@ p.copyright{
   
 }
 
-@media only screen and (max-width: 297px){
+@media only screen and (min-width: 300px){
   .navbar{
         height: 50px;
         width: 100%;
@@ -338,7 +338,7 @@ text-align: center;
 
 }
 
-@media only screen and (min-width: 300px) and (max-width: 374px){
+@media only screen and (min-width: 301px) and (max-width: 374px){
   .navbar{
         height: 50px;
         width: 100%;
@@ -417,7 +417,7 @@ text-align: center;
   }
 
   #contact{
-    margin-top: 440px;
+    margin-top: 480px;
   }
   
   img#link{
