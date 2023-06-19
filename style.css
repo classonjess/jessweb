@@ -932,29 +932,29 @@ text-align: center;
  }
 }
 
-@media only screen and (max-width: 736px) and (orientation: landscape){
+@media only screen and (max-width: 765px) and (orientation: landscape){
   body{
-    background-size: 45% !important;
+    background-size: 36% !important;
   }
 
   p#one{
     font-size: 15px;
     margin-top: 390px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
   div#contact{
     margin-top: 420px;
-    margin-left: 100px;
+    margin-left: 160px;
   }
 
   .m1{
-    margin-left: 100px;
+    margin-left: 190px;
   }
 
   .a1{
-    margin-left: 100px;
+    margin-left: 190px;
   }
 
   img#tess{
@@ -963,7 +963,7 @@ text-align: center;
   }
 
   div#images{
-    margin-left: 160px;
+    margin-left: 240px;
   }
 }
 
