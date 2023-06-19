@@ -192,6 +192,44 @@ p.copyright{
   
 }
 
+@media only screen and (max-width: 734px) and (orientation: landscape){
+
+  body{
+    background-size: 45% !important;
+  }
+
+  p#one{
+    font-size: 15px;
+    margin-top: 390px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  div#contact{
+    margin-top: 420px;
+    margin-left: 100px;
+  }
+
+  .m1{
+    margin-left: 100px;
+  }
+
+  .a1{
+    margin-left: 100px;
+  }
+
+  img#tess{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#images{
+    margin-left: 160px;
+  }
+
+
+}
+
 @media only screen and (min-width: 300px){
   .navbar{
         height: 50px;
@@ -484,8 +522,9 @@ text-align: center;
 
 }
 
+
 /* My phone */
-@media only screen and  (min-width: 375px) and (max-width: 424px){
+@media only screen and  (min-width: 375px) and (max-width: 424px) and (orientation : portrait) {
 .navbar{
     height: 50px;
     width: 100%;
@@ -635,7 +674,12 @@ text-align: center;
 }
 
 
-@media only screen and (min-width: 425px) and (max-width: 766px){
+
+  
+
+
+@media only screen and (min-width: 425px) and (max-width: 766px)
+{
   .navbar{
     height: 50px;
     width: 100%;
@@ -783,6 +827,9 @@ p.copyright{
  text-align: center; 
  }
 }
+
+
+
 
 /* Tablet */
 @media only screen and  (min-width: 767px) and (max-device-width: 768px){
