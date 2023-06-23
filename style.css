@@ -1380,7 +1380,33 @@ p.copyright{
 
 }
 
+@media only screen and (min-width: 800px) and (max-device-width: 1280px) and (orientation: portrait){
+ img#tess{
+  margin-right:50px;
+ }
 
+  p#one{
+    margin-left: 20px;
+    padding-right: 425px;
+  }
+
+  div#contact{
+    margin-top: 490px;
+  }
+
+  div#alles{
+    padding-right: 500px;
+  }
+
+  div#images{
+    margin-left: 30px;
+  }
+
+  p.copyright{
+    
+   padding-bottom: 35px;
+  }
+}
 
 /* Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-device-width: 1440px) {
