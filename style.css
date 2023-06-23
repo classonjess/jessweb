@@ -1530,9 +1530,114 @@ text-align: center;
 }
 }
 
-@media only screen and (min-width: 1052px) and (max-height: 630px){
+@media only screen and (min-width: 629px) and (max-height: 1024px) and (orientation: portrait){
   p#one{
-    padding-right: 600px;
+   margin-left: 60px;
+   margin-right: 60px;
+  }
+
+  img#tess{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#contact{
+    margin-top: 430px;
+    margin-left:10px;
+  }
+  
+  ul{
+    margin-left: 170px;
+  }
+
+  div#images{
+   
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-height: 1024px) and (orientation: portrait){
+  header{
+    margin-top:500px;
+  }
+
+  img#img-fluid{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  input[type=checkbox] {
+    display: none;
+    } 
+    
+    /* HAMBURGER MENU */
+    .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    }
+    
+    ul.navbar-links{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }
+    
+    a.nav-link{
+    font-size: 20px;
+    margin-right: 20px;
+    }
+
+  p#one{
+    margin-top: 560px;
+    text-align: center;
+    padding-right: 0px;
+    margin-left: 100px;
+    margin-right:100px;
+  }
+
+  img#tess{
+    margin-top: 50px;
+    margin-right: 150px;
+    height: 400px;
+    width: 400px;
+  }
+
+  div#contact{
+    margin-top: 1100px;
+    margin-left: 250px;
+  }
+  
+  div#alles{
+    padding-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    margin-left: 0px;
+  }
+  
+  ul{
+    margin-left: 250px;
+  }
+
+  h3{
+    text-align: center;
+    margin-left: 0px;
+
+  }
+
+  div#images{
+    margin-left: 150px;
+ }
+}
+
+
+@media only screen and (min-width: 769px) and (max-height: 1124px) and (orientation: portrait){
+  p#one{
+    padding-right: 440px;
+    margin-left: 20px;
   }
 
   img#tess{
@@ -1540,11 +1645,11 @@ text-align: center;
   }
 
   div#contact{
-    margin-top: 900px;
+    margin-top: 540px;
   }
   
   div#alles{
-    padding-right: 700px;
+    padding-right: 500px;
   }
   
   ul{
@@ -1555,6 +1660,8 @@ text-align: center;
     margin-left: 30px;
   }
 }
+
+
 @media only screen and (min-width: 1068px) and (max-device-height: 744px){
 
   p#one{
@@ -1582,6 +1689,12 @@ text-align: center;
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 960px) and (orientation:landscape){
+  #contact{
+    margin-top: 500px;
+  }
+
+}
 
 
 @media only screen and (min-width: 1280px) and (max-device-height: 800px){
