@@ -1697,7 +1697,7 @@ text-align: center;
 }
 
 /*now*/
-@media only screen and (min-width: 1095px) and (max-height:929px) and (orientation:landscape){
+@media only screen and (min-width: 1027px) and (max-height:929px) and (orientation:landscape){
   p#one{
     padding-right: 550px;
   }
@@ -1706,7 +1706,7 @@ text-align: center;
     margin-right: 50px;
   }
   #contact{
-    margin-top: 790px;
+    margin-top: 820px;
   }
 
   div#alles{
