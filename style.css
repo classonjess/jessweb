@@ -1697,12 +1697,12 @@ text-align: center;
 }
 
 /*now*/
-@media only screen and (min-width:1027px) and (max-height: 686px){
+@media only screen and (min-width:769px) and (max-height: 686px){
   p#one{
-    padding-right: 600px;
+    padding-right: 500px;
   }
   div#contact{
-    margin-top: 930px;
+    margin-top: 650px;
   }
 
   div#alles{
