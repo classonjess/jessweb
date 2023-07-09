@@ -1380,6 +1380,8 @@ p.copyright{
 
 }
 
+
+
 @media only screen and (min-width: 800px) and (max-device-width: 1280px) and (orientation: portrait){
  img#tess{
   margin-right:50px;
@@ -1408,19 +1410,7 @@ p.copyright{
   }
 }
 
-/*now*/
-@media only screen and (min-width:1025px) and (max-device-width: 1280px){
-  p#one{
-    padding-right: 500px;
-  }
-  div#contact{
-    margin-top: 850px;
-  }
 
-  div#alles{
-    padding-right: 500px;
-  }
-}
 
 /* Laptop Large*/
 @media only screen and (min-width: 1025px) and (max-device-width: 1440px) {
@@ -1710,7 +1700,19 @@ text-align: center;
 
 }
 
+/*now*/
+@media only screen and (min-width:1096px) and (max-height: 1095px) {
+  p#one{
+    padding-right: 630px;
+  }
+  div#contact{
+    margin-top: 870px;
+  }
 
+  div#alles{
+    padding-right: 500px;
+  }
+}
 
 @media only screen and (min-width: 1280px) and (max-device-height: 800px){
   #contact{
