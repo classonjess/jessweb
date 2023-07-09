@@ -1697,12 +1697,12 @@ text-align: center;
 }
 
 /*now*/
-@media only screen and (min-width:1160px) and (max-height: 1697px){
+@media only screen and (min-width:1027px) and (max-height: 686px){
   p#one{
-    padding-right: 700px;
+    padding-right: 600px;
   }
   div#contact{
-    margin-top: 850px;
+    margin-top: 930px;
   }
 
   div#alles{
@@ -1721,7 +1721,7 @@ text-align: center;
 }
 
 /* My pc */
-@media only screen and (min-width: 2000px) and (max-device-width: 2335px) {
+@media only screen and (min-width: 2000px) and (max-device-width: 2335px) and (orientation:landscape) {
 .navbar{
   height: 70px;
   width: 100%;
