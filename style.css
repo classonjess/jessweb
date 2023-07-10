@@ -1411,12 +1411,12 @@ p.copyright{
 }
 
 /*now*/
-@media only screen and (max-width:1400px) and (min-device-height:900px) {
+@media only screen and (max-width:1300px) and (min-device-height:900px) {
   p#one{
     padding-right: 750px;
   }
   div#contact{
-    margin-top: 850px;
+    margin-top: 900px;
   }
 
   div#alles{
@@ -1425,7 +1425,7 @@ p.copyright{
 }
 
 /* Laptop Large*/
-@media only screen and (min-width: 1025px) and (max-device-width: 1440px) and (orientation: landscape){
+@media only screen and (min-width: 1440px) and (max-device-width: 1440px) and (orientation: landscape){
 .navbar{
   height: 70px;
   width: 100%;
