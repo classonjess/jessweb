@@ -1166,7 +1166,41 @@ text-align: center;
  }
 }
 
-@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait){
+/* Ipad 7th gen */
+@media only screen and (min-device-width: 810px)and (max-device-width: 810px) and (max-device-height: 1010px) and (orientation: portrait){
+  p#one{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  img#tess{
+    margin-right: 90px;
+    width: 300px;
+  }
+
+  div#contact{
+    margin-top: 500px;
+    margin-left: 0px;
+  }
+
+  ul{
+    margin-left: 0px;
+  }
+
+  li.m1{
+    margin-left: 30px;
+  }
+
+  li.a1{
+    margin-left: 30px;
+  }
+
+  div#images{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) and (device-height: 1024px) and (orientation: portrait){
   header{
     font-size: 15px;
   }
@@ -1380,39 +1414,7 @@ p.copyright{
 
 }
 
-/* Ipad 7th gen */
-@media only screen and (min-width: 768px) and (max-device-width: 1134px) and (orientation: portrait){
-  p#one{
-    margin-top: 50px;
-    margin-left: 20px;
-  }
 
-  img#tess{
-    margin-right: 90px;
-    width: 300px;
-  }
-
-  div#contact{
-    margin-top: 500px;
-    margin-left: 0px;
-  }
-
-  ul{
-    margin-left: 0px;
-  }
-
-  li.m1{
-    margin-left: 30px;
-  }
-
-  li.a1{
-    margin-left: 30px;
-  }
-
-  div#images{
-    margin-left: 30px;
-  }
-}
 
 
 @media only screen and (min-width: 800px) and (max-device-width: 1280px) and (orientation: portrait){
@@ -1449,7 +1451,7 @@ p.copyright{
     padding-right: 750px;
   }
   div#contact{
-    margin-top: 1100px;
+    margin-top: 1150px;
   }
 
   div#alles{
