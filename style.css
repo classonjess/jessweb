@@ -1411,12 +1411,12 @@ p.copyright{
 }
 
 /*now*/
-@media only screen and (max-width:1400px) and (min-height:900px) {
+@media only screen and (max-width:1400px) and (min-device-height:900px) {
   p#one{
     padding-right: 750px;
   }
   div#contact{
-    margin-top: 860px;
+    margin-top: 850px;
   }
 
   div#alles{
