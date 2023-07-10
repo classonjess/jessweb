@@ -1410,13 +1410,13 @@ p.copyright{
   }
 }
 
-/*now*/
-@media only screen and (max-width:1300px) and (min-device-height:900px) {
+/*Half Mac*/
+@media only screen and (max-width:1300px) and (min-device-height:1300px) {
   p#one{
     padding-right: 750px;
   }
   div#contact{
-    margin-top: 1200px;
+    margin-top: 1100px;
   }
 
   div#alles{
