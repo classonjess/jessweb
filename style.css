@@ -1167,7 +1167,7 @@ text-align: center;
 }
 
 /* Ipad 7th gen */
-@media only screen and (device-width: 810px) and (device-height: 1000px) and (orientation: portrait){
+@media only screen and (device-width: 1024px) and (device-height: 1336px) and (orientation: portrait){
   header{
     margin-left: 20px;
     margin-top: 15px;
@@ -1195,7 +1195,7 @@ text-align: center;
   }
 
   div#contact{
-    margin-top: 1100px;
+    margin-top:750px;
     margin-left: 0px;
     padding-left:0px;
   }
