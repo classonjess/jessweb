@@ -483,6 +483,7 @@ text-align: center;
 
 }
 
+/* 13mini*/
 @media only screen and (min-width: 360px) and (max-width: 767px) { 
 .navbar{
   height: 50px;
@@ -564,7 +565,7 @@ margin-left: 60px;
 }
 
 #contact{
-margin-top: 630px;
+margin-top: 640px;
 }
 
 img#link{
