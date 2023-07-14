@@ -784,7 +784,7 @@ text-align: center;
 }
 
 
-@media only screen and (min-width: 425px) and (max-width: 766px){
+@media only screen and (min-width: 425px) and (max-width: 766px) {
 .navbar{
   height: 50px;
   width: 100%;
@@ -934,7 +934,6 @@ text-align: center;
 }
 
 
-
 @media only screen and (max-width: 765px) and (orientation: landscape){
   body{
     background-size: 36% !important;
@@ -948,7 +947,7 @@ text-align: center;
   }
 
   div#contact{
-    margin-top: 420px;
+    margin-top: 450px;
     margin-left: 160px;
   }
 
