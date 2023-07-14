@@ -715,7 +715,7 @@ margin-left: 60px;
 }
 
 #contact{
-margin-top: 580px;
+margin-top: 590px;
 }
 
 img#link{
@@ -933,7 +933,7 @@ text-align: center;
  }
 }
 
-
+/* landscape iphone */
 @media only screen and (max-width: 765px) and (orientation: landscape){
   body{
     background-size: 36% !important;
@@ -947,7 +947,7 @@ text-align: center;
   }
 
   div#contact{
-    margin-top: 450px;
+    margin-top: 470px;
     margin-left: 160px;
   }
 
