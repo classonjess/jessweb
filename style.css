@@ -1480,7 +1480,6 @@ p.copyright{
   }
 
   p.copyright{
-    
    padding-bottom: 35px;
   }
 }
@@ -1496,6 +1495,10 @@ p.copyright{
 
   div#alles{
     padding-right: 500px;
+  }
+
+  p.copyright{
+    padding-top: 20px;
   }
 }
 
