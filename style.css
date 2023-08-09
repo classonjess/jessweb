@@ -537,8 +537,9 @@ font-weight: bolder;
 }
 
 body{
-background-position: bottom top;
-background-size: 62%;
+  background-image: url(./images/back2.png);
+background-position: top center;
+background-size: 170%;
 }
 
 #one{
@@ -600,10 +601,6 @@ padding-top: 15px;
 margin-left: 169px;
 line-height: 50px;
 font-size: 15px;
-background-image: url(./images/five.png);
-background-repeat: no-repeat;
-background-size: 70%;
-background-position: right;
 }
 
 h3{
