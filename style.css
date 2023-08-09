@@ -600,6 +600,10 @@ padding-top: 15px;
 margin-left: 169px;
 line-height: 50px;
 font-size: 15px;
+background-image: url(./images/five.png);
+background-repeat: no-repeat;
+background-size: 70%;
+background-position: right;
 }
 
 h3{
@@ -612,18 +616,15 @@ margin-left: 0px;
 }
 img{
 height: 40px;
+
 }
 
 #images{
 margin-left: 25px;
 grid-gap: 19px;
 padding-bottom: 50px;
-background-image: url(./images/3.png);
-background-repeat: no-repeat;
-background-size: 140%;
-background-position:  center;
-
 }
+
 footer{
 height: 50px;
 }
