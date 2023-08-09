@@ -538,8 +538,8 @@ font-weight: bolder;
 
 body{
   background-image: url(./images/back2.png);
-background-position: top center;
-background-size: 170%;
+  background-position: top center;
+  background-size: 170%;
 }
 
 #one{
@@ -690,7 +690,7 @@ font-weight: bolder;
 
 body{
 background-position: bottom top;
-background-size: 65%;
+background-size: 62%;
 }
 
 #one{
@@ -840,7 +840,7 @@ font-weight: bolder;
 
 body{
 background-position: bottom top;
-background-size: 60%;
+background-size: 160%;
 }
 
 #one{
