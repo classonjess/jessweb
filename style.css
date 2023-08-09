@@ -389,8 +389,9 @@ header{
 }
 
 body{
-  background-position: bottom top;
-  background-size: 70%;
+  background-image: url(./images/back2.png);
+  background-position: top center;
+  background-size: 170%;
 }
 
 #one{
@@ -690,7 +691,7 @@ font-weight: bolder;
 
 body{
 background-position: bottom top;
-background-size: 160%;
+background-size: 170%;
 }
 
 #one{
@@ -840,7 +841,7 @@ font-weight: bolder;
 
 body{
 background-position: bottom top;
-background-size: 160%;
+background-size: 170%;
 }
 
 #one{
