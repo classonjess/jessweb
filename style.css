@@ -841,7 +841,7 @@ font-weight: bolder;
 
 body{
 background-position: bottom top;
-background-size: 170%;
+background-size: 180%;
 }
 
 #one{
@@ -1545,8 +1545,8 @@ margin-left: 23px;
 }
 
 body{
-background-position: right top;
-background-size: 40%;
+background-position: right;
+background-size: 68%;
 }
 
 #one{
@@ -1788,11 +1788,7 @@ text-align: center;
   #contact{
     margin-top: 500px;
   }
-
-
 }
-
-
 
 @media only screen and (min-width: 1280px) and (max-device-height: 800px){
   #contact{
@@ -1845,9 +1841,8 @@ margin-left: 23px;
 }
 
 body{
-  
-background-position: top right;
-background-size: 40%;
+background-position: bottom right;
+background-size: 50%;
 }
 
 #one{
