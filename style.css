@@ -1545,8 +1545,8 @@ margin-left: 23px;
 }
 
 body{
-background-position: bottom top;
-background-size: 50%;
+background-position: right top;
+background-size: 40%;
 }
 
 #one{
@@ -1558,11 +1558,11 @@ font-weight: 100;
 }
 
 #tess{
-width: 400px;
-height: 400px;
+width: 450px;
+height: 450px;
 border-radius: 30%;
-margin-top: 100px;
-margin-right: 130px;
+margin-top: 140px;
+margin-right: 160px;
 }
 
 #contact{
@@ -1844,8 +1844,9 @@ margin-left: 23px;
 }
 
 body{
-background-position: bottom top;
-background-size: 50%;
+  
+background-position: top right;
+background-size: 40%;
 }
 
 #one{
@@ -1857,11 +1858,11 @@ font-weight: 100;
 }
 
 #tess{
-width: 500px;
-height: 550px;
+width: 550px;
+height: 730px;
 border-radius: 30%;
-margin-top: 100px;
-margin-right: 430px;
+margin-top: 120px;
+margin-right: 580px;
 }
 
 #contact{
