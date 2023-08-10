@@ -939,7 +939,7 @@ text-align: center;
 /* landscape iphone */
 @media only screen and (max-width: 765px) and (orientation: landscape){
   body{
-    background-size: 36% !important;
+    background-size: 100% !important;
   }
 
   p#one{
@@ -1788,6 +1788,7 @@ text-align: center;
   #contact{
     margin-top: 500px;
   }
+
 
 }
 
