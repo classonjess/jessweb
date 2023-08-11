@@ -1492,7 +1492,7 @@ p.copyright{
 
   header{
     margin-left: 25px;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 40px;
   }
 
@@ -1511,7 +1511,7 @@ p.copyright{
   }
   div#contact{
     margin-top: 1020px;
-    margin-bottom:20px;
+    margin-bottom:50px;
     margin-left: 30px;
   }
 
@@ -1527,7 +1527,8 @@ p.copyright{
 
   #alles{
     margin-left: 30px;
-    margin-right: 250px;
+    margin-right: 200px;
+    font-size: 35px;
   }
 
   h2#projects{
@@ -1549,10 +1550,12 @@ p.copyright{
 
   div#images{
     margin-left: 40px;
+    padding-bottom: 60px;
   }
 
   p.copyright{
     padding-top: 20px;
+    margin-bottom: 0px;
   }
 }
 
