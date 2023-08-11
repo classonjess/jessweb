@@ -1491,8 +1491,8 @@ p.copyright{
 @media only screen and (min-width: 1100px) and (max-width:1300px) and (max-height:1300px) {
 
   header{
-    margin-left: 30px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 23px;
     margin-top: 40px;
   }
 
@@ -1510,7 +1510,8 @@ p.copyright{
     margin-top: 100px;
   }
   div#contact{
-    margin-top: 1000px;
+    margin-top: 1020px;
+    margin-bottom:20px;
     margin-left: 30px;
   }
 
@@ -1526,7 +1527,7 @@ p.copyright{
 
   #alles{
     margin-left: 30px;
-    margin-right: 300px;
+    margin-right: 250px;
   }
 
   h2#projects{
