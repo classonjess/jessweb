@@ -840,8 +840,8 @@ font-weight: bolder;
 }
 
 body{
-background-position: bottom top;
-background-size: 180%;
+background-position: top;
+background-size: 185%;
 }
 
 #one{
@@ -1373,8 +1373,8 @@ header{
 }
 
 body{
-  background-position: bottom top;
-  background-size: 60%;
+  background-position: top right;
+  background-size: 50%;
 }
 
 #one{
@@ -1545,9 +1545,8 @@ margin-left: 23px;
 }
 
 body{
-  background-image: url(./images/back2.png);
 background-position: top right;
-background-size: 62%;
+background-size: 50%;
 }
 
 #one{
