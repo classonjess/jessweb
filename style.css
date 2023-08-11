@@ -939,7 +939,7 @@ text-align: center;
 /* landscape iphone */
 @media only screen and (max-width: 765px) and (orientation: landscape){
   body{
-    background-size: 100% !important;
+    background-size: 120% !important;
   }
 
   p#one{
@@ -1087,7 +1087,7 @@ margin-left: 19px;
 
 body{
 background-position: bottom top;
-background-size: 60%;
+background-size: 55%;
 }
 
 #one{
@@ -1545,8 +1545,9 @@ margin-left: 23px;
 }
 
 body{
-background-position: right;
-background-size: 68%;
+  background-image: url(./images/back2.png);
+background-position: top right;
+background-size: 62%;
 }
 
 #one{
