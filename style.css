@@ -1099,7 +1099,7 @@ line-height: 19px;
 }
 
 #tess{
-width: 260px;
+width: 300px;
 height: 300px;
 border-radius: 30%;
 margin-top: 60px;
@@ -1373,8 +1373,8 @@ header{
 }
 
 body{
-  background-position: top right;
-  background-size: 60%;
+  background-position: bottom right;
+  background-size: 63%;
 }
 
 #one{
@@ -1390,7 +1390,7 @@ body{
   width: 300px;
   height: 300px;
   border-radius: 30%;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 90px;
 }
 
@@ -1489,11 +1489,34 @@ p.copyright{
 
 /*Half Mac*/
 @media only screen and (min-width: 1100px) and (max-width:1300px) and (max-height:1300px) {
+
+  header{
+    margin-left: 30px;
+  }
+
+  a.nav-link{
+    margin-right: 30px;
+  }
+
+  img#img-fluid{
+    margin-left: 20px;
+  }
+
   p#one{
     padding-right: 750px;
+    margin-left: 30px;
   }
   div#contact{
     margin-top: 1200px;
+  }
+
+  img#tess{
+    height:500px;
+    width: 500px;
+  }
+
+  h2#projects{
+    padding-top: 40px;
   }
 
   div#alles{
